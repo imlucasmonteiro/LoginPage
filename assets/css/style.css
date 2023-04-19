@@ -1,0 +1,97 @@
+@import url('https://fonts.googleapis.com/css2?family=Fira+Mono&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Fira Mono', monospace;
+}
+
+body {
+    background-color: rgb(163, 163, 163);
+}
+
+.content-center {
+    width: 100%;
+    max-width: 300px;
+    margin: auto;
+    padding: 20px;
+    background-color: #ffffff;
+    border-radius: 15px;
+}
+
+.content-center img {
+    width: 70%;
+}
+
+.content-center form {
+    margin: 20px;
+}
+
+.content-center input,
+.content-center button {
+    width: 100%;
+    padding: 10px 5px;
+    border: none;
+    outline: none;
+}
+
+.content-center input {
+    border-bottom-color: #999999;
+    border-bottom-style: solid;
+    border-width: 2px;
+    border-bottom: 10px;
+}
+
+.content-center input:focus {
+    border-bottom-color: rgb(158, 104, 4);
+}
+
+.content-center button{
+    background-color: rgb(255, 42, 42);
+    color: white;
+}
+
+.content-center button:hover {
+    background-color: rgb(0, 255, 0);
+    color: rgb(0, 0, 0);
+    cursor: pointer
+}
+
+.content-center button:active{
+    background-color: orange;
+}
+
+header a{
+    text-decoration: none;
+    color: white;
+
+}
+
+header a:visited{
+    color: black;
+}
+
+header a:focus {
+    color: white;
+}
+
+header a:active{
+    color: yellow;
+}
+
+header h1 {
+    font-size: 2.5em;
+    text-align: center;
+    margin: 50px 50px;
+}
+
+footer p {
+    margin-top: 1em;
+    font-size: .8em;
+    text-align: center;
+}
+
+#text-center {
+    text-align: center;
+}
